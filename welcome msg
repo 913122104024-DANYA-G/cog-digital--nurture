@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome message</title>
+    <style>
+    #welcomeBanner{
+        background-color: blue;
+        color: white;
+        padding: 20px;
+        text-align: center
+    }
+    .highlight{
+        background-color: rgb(175, 92, 92);
+        color: azure;
+        font-size: large;
+        font-style: italic;
+    }
+    </style>
+</head>
+<body>
+    <div id="welcomeBanner">
+        <h1>Welcome Back, User!</h1>
+        <p>We’re glad to see you again. Don’t miss today’s 
+           <span style="color: red; font-weight: bold;">Special Offer!</span>
+        </p>
+    </div>
+    <p class="highlight">Exclusive deals available only for logged-in members.</p>
+    <p>Visit our <span class="highlight">Events</span> page for more updates.</p>
+
+</body>
+</html>
