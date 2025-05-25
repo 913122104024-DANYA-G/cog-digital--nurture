@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image gallery for community events</title>
+    <style>
+         .gallery-img {
+            width: 150px;
+            height: 180px;
+            border: 3px solid #444;
+            margin: 5px;
+        }
+        table {
+            margin: auto;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Snapshots from Our Community Events</caption>
+        <tr>
+            <td><img src="C:\Users\User\Pictures\New folder\music-night.jpg" alt="Music Night" title="Music Night Celebration" class="gallery-img"></td>
+            <td><img src="C:\Users\User\Pictures\New folder\charity run.jpg" alt="Charity Run" title="Annual Charity Run" class="gallery-img"></td>
+            <td><img src= "C:\Users\User\Pictures\New folder\foodfest.jpg" alt="Food Fest" title="Community Food Festival" class="gallery-img"></td>
+        </tr>
+        <tr>
+            <td><img src="C:\Users\User\Pictures\New folder\cleandrive.jpeg" alt="Clean Drive" title="Neighborhood Clean-up Drive" class="gallery-img"></td>
+            <td><img src= "C:\Users\User\Pictures\New folder\art-exhibition.jpg" alt="Art Exhibition" title="Local Art Exhibition" class="gallery-img"></td>
+            <td><img src= "C:\Users\User\Pictures\New folder\game night.jpg"alt="Game Night" title="Family Game Night" class="gallery-img"></td>
+        </tr>
+    </table>
+</body>
+</html>
