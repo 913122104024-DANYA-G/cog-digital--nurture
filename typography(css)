@@ -1,0 +1,64 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Typography Example</title>
+
+  <link href="https://fonts.google.com/specimen/Playfair+Display" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 class="main-heading">Welcome to City Portal</h1>
+    <p class="tagline">Your hub for news, events, and updates</p>
+  </header>
+
+  <section class="description">
+    <h2>Latest Updates</h2>
+    <p>
+      Stay informed with the latest from your community. 
+      Read official notices, upcoming events, and service updates.
+    </p>
+  </section>
+</body>
+</html>
+
+styles.css
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  padding: 20px;
+}
+
+.main-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.tagline {
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+  color: #555;
+}
+
+.description h2 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.description p {
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  text-align: justify;
+}
